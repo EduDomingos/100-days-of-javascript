@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Owhitepen+Sans:wght@300;400;600;700&display=swap");
 
 :root {
   --white: #fff;
@@ -49,7 +49,7 @@ img {
   border: 1px solid var(--grey);
   padding: 1rem;
   background-color: var(--light-blue);
-  color: var(--white);
+  color: var(--grey);
   text-align: center;
   border-radius: 5px;
 }
@@ -58,7 +58,7 @@ img {
   margin-bottom: 2rem;
 }
 
-.count {
+.ranNum {
   font-size: 4rem;
 }
 
@@ -66,7 +66,7 @@ img {
   padding: 1rem;
   margin: 0 1rem;
   font-size: 1.5rem;
-  color: var(--white);
+  color: var(--grey);
   font-weight: 700;
   border: none;
   outline: none;
@@ -74,15 +74,7 @@ img {
   cursor: pointer;
 }
 
-button.subtract {
-  background-color: orangered;
-}
-
-button.reset {
-  background-color: var(--white);
+button.btn-gen {
+  background-color: var(--grey);
   color: var(--black);
-}
-
-button.add {
-  background-color: green;
 }
